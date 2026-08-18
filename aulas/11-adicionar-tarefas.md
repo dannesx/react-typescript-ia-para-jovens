@@ -8,6 +8,7 @@
 - **Produto do encontro:** inclusão de tarefas pendentes
 - **Pré-requisito:** `useState<Tarefa[]>` e eventos de formulário
 - **OpenCode:** planeja e revisa; alunos implementam
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -56,6 +57,12 @@ Não altere arquivos e não escreva a implementação completa.
 - Limpar o campo após um envio válido.
 - Mostrar uma orientação para entrada inválida.
 
+## Uso de DaisyUI
+
+Use `fieldset`, `label`, `input` e `btn btn-primary` no formulário. Apresente validação com `alert alert-error` e o novo item com o mesmo `card` usado na lista. O atributo `disabled` pode ser combinado com o botão, mas a validação também deve existir na função de envio.
+
+**Verificação:** testar envio pelo botão e pela tecla Enter; o campo precisa manter um nome acessível e o foco deve continuar visível.
+
 ## Testes manuais
 
 | Entrada | Resultado esperado |
@@ -82,4 +89,3 @@ Entregar pronta a função que cria a tarefa e pedir que os alunos conectem esta
 ## Evidência de aprendizagem
 
 Cada dupla entrega a tabela de testes preenchida e explica por que a nova tarefa respeita o tipo `Tarefa`.
-

@@ -2,7 +2,7 @@
 
 Plano de 18 aulas introdutórias de desenvolvimento de interfaces para uma turma com idade média de 13 anos.
 
-O material apresenta React de forma gradual, usa TypeScript como apoio visual para encontrar erros na IDE e introduz desenvolvimento assistido por IA com OpenCode. A proposta prioriza prática guiada, projetos pequenos e compreensão do código acima da memorização de sintaxe.
+O material apresenta React de forma gradual, usa DaisyUI como biblioteca visual já conhecida, TypeScript como apoio para encontrar erros na IDE e desenvolvimento assistido por IA com OpenCode. A proposta prioriza prática guiada, projetos pequenos e compreensão do código acima da memorização de sintaxe.
 
 ## Objetivos
 
@@ -12,6 +12,7 @@ Ao final da sequência, espera-se que os alunos consigam:
 - Passar informações usando props.
 - Alterar a tela com `useState`.
 - Trabalhar com eventos, formulários e listas.
+- Montar interfaces consistentes com componentes DaisyUI.
 - Criar tipos simples para props e objetos.
 - Interpretar avisos básicos do TypeScript.
 - Consumir e apresentar dados de uma API simples.
@@ -75,6 +76,28 @@ O curso se concentra em:
 
 Assuntos como generics avançados, tipos condicionais, assertions e tipos utilitários ficam fora do escopo.
 
+## Uso de DaisyUI
+
+DaisyUI é assumido como conteúdo já apresentado à turma. Todos os projetos-base devem chegar com Tailwind CSS e DaisyUI configurados pelo professor. As aulas usam classes conhecidas para concentrar o tempo em React, TypeScript e lógica.
+
+Os exemplos deste material seguem DaisyUI 5 com Tailwind CSS 4. No projeto Vite, o professor prepara as dependências e o plugin do Tailwind; no arquivo CSS principal, a base esperada é:
+
+```css
+@import "tailwindcss";
+@plugin "daisyui";
+```
+
+Caso a turma utilize outra versão, ajuste as classes do material antes da aula em vez de realizar uma migração ao vivo.
+
+Componentes recorrentes:
+
+- `navbar`, `card`, `avatar` e `divider` na página de vídeo.
+- `input`, `textarea`, `btn`, `badge` e `checkbox` nos formulários e listas.
+- `alert`, `loading` e `skeleton` nos estados de requisição.
+- `tabs`, `select` e `stats` em filtros e resumos.
+
+DaisyUI resolve a base visual, mas não substitui HTML semântico. Campos continuam precisando de labels, botões devem ter nomes compreensíveis e todas as ações precisam funcionar por teclado.
+
 ## Uso de IA com OpenCode
 
 O OpenCode é apresentado como parceiro de investigação, não como substituto da aprendizagem. A turma utiliza o protocolo **PARE**:
@@ -132,6 +155,7 @@ O escopo mínimo inclui uma API, tipo TypeScript, componentes, estados de carreg
 - [x] Plano curricular com 18 aulas
 - [x] Roteiros individuais
 - [x] Progressão de TypeScript
+- [x] DaisyUI integrado aos três projetos
 - [x] Uso contínuo e responsável de OpenCode
 - [x] Projeto final e rubrica de avaliação
 

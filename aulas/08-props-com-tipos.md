@@ -8,6 +8,7 @@
 - **Produto do encontro:** tarefas estáticas exibidas pelo mesmo componente
 - **Pré-requisito:** tipos básicos e criação de componentes
 - **OpenCode:** ainda não será usado
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -61,6 +62,12 @@ export default function ItemTarefa({ titulo, concluida }: ItemTarefaProps) {
 - Exibir visualmente se cada tarefa está pendente ou concluída.
 - Criar um erro de tipo intencional e corrigi-lo.
 
+## Uso de DaisyUI
+
+Monte `ItemTarefa` como `card card-compact`, represente a situação com `badge badge-success` ou `badge badge-warning` e mostre um `checkbox` apenas visual. Nesta aula, as props controlam texto e aparência; o checkbox ainda não altera o estado.
+
+**Verificação:** `concluida` deve decidir qual badge aparece. Não crie dois componentes diferentes para pendente e concluída.
+
 ## Extensão
 
 Adicionar a prop `prioridade: string` somente como texto visual, sem criar regras de prioridade.
@@ -84,4 +91,3 @@ Começar somente com `titulo: string`. Quando duas tarefas diferentes aparecerem
 ## Evidência de aprendizagem
 
 O aluno cria uma chamada errada de propósito, prevê o aviso e demonstra a correção.
-

@@ -8,6 +8,7 @@
 - **Produto do encontro:** tema, API, tipo principal e desenho aprovados
 - **Organização:** duplas ou trios
 - **OpenCode:** explica o JSON e critica o escopo; não edita código
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -90,6 +91,12 @@ Não altere arquivos, não escreva a aplicação e avise quando estiver fazendo 
 - O grupo consegue explicar o que cada campo representa?
 - Existe JSON local como plano B?
 
+## Uso de DaisyUI
+
+Durante o planejamento, cada grupo escolhe no máximo quatro componentes visuais: `card` para itens, `select` para categoria, `input` para busca e `badge` para uma propriedade curta. Use `mockup-code` somente para apresentar a amostra JSON, não como parte obrigatória da aplicação.
+
+**Verificação:** o desenho precisa ligar cada componente DaisyUI a uma função concreta. Remova qualquer componente meramente decorativo que aumente o escopo.
+
 ## Extensão
 
 Criar, em papel, duas alternativas de organização visual usando os mesmos dados e escolher a mais simples.
@@ -108,4 +115,3 @@ Se a internet falhar, trabalhar integralmente com as amostras locais. Se o grupo
 ## Evidência de aprendizagem
 
 Cada grupo entrega a ficha preenchida, o tipo principal revisado e o desenho de uma tela.
-

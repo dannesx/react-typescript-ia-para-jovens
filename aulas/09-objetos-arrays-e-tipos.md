@@ -8,6 +8,7 @@
 - **Produto do encontro:** lista inicial renderizada com `map`
 - **Pré-requisito:** props tipadas e uso anterior de `map`
 - **OpenCode:** ainda não será usado
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -54,6 +55,12 @@ const tarefasIniciais: Tarefa[] = [
 - Usar `tarefa.id` como `key`.
 - Corrigir dois objetos inválidos fornecidos pelo professor.
 
+## Uso de DaisyUI
+
+Renderize a coleção em `ul` e mantenha cada item como `card card-compact border border-base-300`. Use `checkbox checkbox-primary` com `checked={tarefa.concluida}` e `readOnly`, pois a interação será implementada depois.
+
+**Verificação:** a `key` pertence ao elemento criado pelo `map`; DaisyUI não substitui `id`, tipagem ou estrutura da lista.
+
 ## Extensão
 
 Adicionar `categoria: string` ao tipo, aos dados e à interface.
@@ -77,4 +84,3 @@ Entregar o tipo pronto e pedir que o aluno selecione quais objetos respeitam o c
 ## Evidência de aprendizagem
 
 O aluno cria uma nova tarefa usando as sugestões automáticas da IDE e explica o papel do `id`.
-

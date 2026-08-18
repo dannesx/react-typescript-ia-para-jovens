@@ -8,6 +8,7 @@
 - **Produto do encontro:** apresentação da aplicação e do processo
 - **Organização:** mesmos grupos das aulas 14–17
 - **OpenCode:** revisão final curta e sem ampliação de escopo
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -62,6 +63,12 @@ Para cada correção aprovada, informe qual teste deve ser repetido.
 | Carregar dados | Um dos estados previstos aparece |  |  |
 | Usar a interação | Resultados mudam corretamente |  |  |
 | Entrada sem resultado | Orientação apropriada aparece |  |  |
+
+## Uso de DaisyUI
+
+Antes da apresentação, confira se `card`, `btn`, `input`, `select`, `alert`, `loading` e `badge` são usados de forma consistente. Não troque o tema ou redesenhe a página nesta aula. Na fala, o grupo deve citar um componente DaisyUI e explicar qual problema visual ou de estado ele resolveu.
+
+**Verificação:** a demonstração precisa incluir foco por teclado e pelo menos um estado além do sucesso.
 
 ## Roteiro de apresentação
 

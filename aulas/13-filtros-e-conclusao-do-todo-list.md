@@ -8,6 +8,7 @@
 - **Produto do encontro:** Todo List finalizado e dividido em componentes
 - **Pré-requisito:** adicionar, alternar e excluir tarefas
 - **OpenCode:** explica o fluxo e revisa filtros, props e tipos
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -58,6 +59,12 @@ Não altere arquivos. Explique quais dados descem e quais ações voltam ao comp
 - Separar ao menos formulário, filtros e lista.
 - Tipar todas as novas props.
 - Confirmar que as ações anteriores continuam funcionando.
+
+## Uso de DaisyUI
+
+Apresente os filtros como `tabs tabs-box` com cada opção usando `tab`; a opção ativa recebe `tab-active`. Mostre a quantidade pendente com `stats` ou `badge`. Preserve botões reais e o estado ativo compreensível para leitores de tela.
+
+**Verificação:** navegar pelos filtros com teclado, confirmar indicação visual e textual do filtro atual e testar o tema em largura estreita.
 
 ## Checklist de conclusão
 

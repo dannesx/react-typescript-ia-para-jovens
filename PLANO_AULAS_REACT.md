@@ -11,11 +11,27 @@
 - **Projeto 3 — aulas 14 a 18:** projeto final com API e desenvolvimento assistido por IA
 - **TypeScript:** introduzido a partir da aula 7 como apoio da IDE para encontrar erros
 - **IA no desenvolvimento:** uso contínuo do OpenCode em todas as aulas, da aula 10 até o projeto final
+- **Interface:** DaisyUI já conhecido pela turma e configurado previamente em todos os projetos-base
 - **Projeto final:** aplicação pequena escolhida pela turma
 
 O objetivo não é ensinar todo o React, mas fazer com que os alunos entendam os conceitos fundamentais, consigam alterar uma interface e sintam confiança para criar projetos simples.
 
 O OpenCode deve entrar como um parceiro de investigação. Os alunos continuam responsáveis por explicar o código, revisar as mudanças e testar o resultado. Para essa faixa etária, o professor deve preparar as contas, os modelos e as permissões antes das aulas, sem expor chaves de API aos estudantes.
+
+DaisyUI é a linguagem visual padrão do curso. As aulas reutilizam componentes e classes já conhecidos, como `btn`, `input`, `card`, `badge`, `alert`, `loading`, `checkbox`, `select` e `tabs`. A instalação fica a cargo do professor; os alunos escolhem componentes, combinam classes e preservam HTML semântico, labels e navegação por teclado.
+
+## Progressão de DaisyUI
+
+| Aulas | Uso principal |
+| --- | --- |
+| 1–3 | Estrutura com `navbar`, `card`, `avatar` e `divider` |
+| 4–6 | Props e interações com `badge`, `btn`, `input`, `textarea` e `card` |
+| 7–9 | Identidade do Todo List com `card`, `input`, `btn`, `badge` e `checkbox` |
+| 10–13 | Estados e ações com `alert`, `tabs`, `checkbox`, `btn` e `stats` |
+| 14–16 | Projeto de API com `select`, `card`, `loading`, `alert` e campo de busca |
+| 17–18 | Consistência, responsividade, acessibilidade e apresentação |
+
+O objetivo não é memorizar classes. Antes de usar um componente, o aluno deve explicar sua função na interface e testar seus estados importantes.
 
 ## Objetivos ao final do curso
 
@@ -127,6 +143,7 @@ Para que a configuração não consuma a aula, o professor deve preparar previam
 
 - Confirmar que o projeto abre sem erros antes de entregá-lo à turma.
 - Criar uma identidade visual simples e própria para o Todo List.
+- Entregar Tailwind CSS e DaisyUI já instalados e configurados.
 - Manter somente o mínimo necessário em `App.tsx` para começar o Todo List.
 - Preparar de três a cinco erros intencionais, cada um com uma única causa.
 - Disponibilizar uma cópia limpa para recuperação.
@@ -416,6 +433,7 @@ Em todas as fases, o professor pode reduzir a autonomia caso a turma esteja acei
 - Nunca colar chaves, tokens ou senhas no chat ou no código.
 - Não pedir um projeto inteiro de uma só vez.
 - Não aceitar uma mudança sem ler os arquivos alterados.
+- Não aceitar classes DaisyUI sugeridas pela IA sem conferir o resultado visual e o HTML produzido.
 - Não considerar a resposta correta apenas porque veio da IA.
 - Pedir explicações simples quando não entender uma sugestão.
 - Avisar o professor antes de permitir instalação de pacotes ou execução de comandos desconhecidos.

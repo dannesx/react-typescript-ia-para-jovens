@@ -8,6 +8,7 @@
 - **Produto do encontro:** busca, filtro ou categoria funcionando
 - **Pré-requisito:** dados da API renderizados
 - **OpenCode:** edita após plano e aprovação
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -71,6 +72,12 @@ Depois da aprovação, faça somente essa mudança e explique cada alteração c
 - Executar três testes.
 - Usar `/undo` se a alteração sair do escopo e registrar o motivo.
 
+## Uso de DaisyUI
+
+Use `input` para busca, `select` para categoria ou `tabs` para poucas opções. A ausência de resultados deve aparecer em `alert`. O OpenCode pode reutilizar esses componentes, mas não deve trocar tema, reorganizar a página ou adicionar uma biblioteca de ícones.
+
+**Verificação:** o grupo compara as classes antes e depois da edição da IA e justifica qualquer classe nova.
+
 ## Testes mínimos
 
 | Situação | Resultado esperado |
@@ -97,4 +104,3 @@ Se o OpenCode estiver indisponível, usar um plano e um diff simulados preparado
 ## Evidência de aprendizagem
 
 Cada grupo entrega prompt, plano aprovado, três resultados de teste e uma explicação de como verificou a resposta da IA.
-

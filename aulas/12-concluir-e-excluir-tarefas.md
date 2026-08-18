@@ -8,6 +8,7 @@
 - **Produto do encontro:** ações de concluir, reabrir e excluir
 - **Pré-requisito:** lista de tarefas no estado
 - **OpenCode:** explica transformações e sugere testes; alunos implementam
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -62,6 +63,12 @@ Depois sugira quatro testes manuais para essas duas ações.
 - Passar as duas funções por props tipadas.
 - Exibir “Nenhuma tarefa cadastrada” quando a lista estiver vazia.
 
+## Uso de DaisyUI
+
+Use `checkbox checkbox-success` para alternar conclusão, `btn btn-error btn-sm` para excluir, `line-through` para o texto concluído e `alert alert-info` para lista vazia. Todo controle precisa de texto visível ou `aria-label` específico.
+
+**Verificação:** marcar e excluir devem funcionar por teclado. A cor não pode ser a única indicação; mantenha texto, checkbox ou decoração de texto.
+
 ## Testes manuais
 
 1. Concluir uma tarefa pendente.
@@ -87,4 +94,3 @@ Implementar somente `alternarTarefa` coletivamente. Depois fornecer `excluirTare
 ## Evidência de aprendizagem
 
 O aluno usa cartões ou desenho para mostrar qual item muda com `map` e qual desaparece com `filter`.
-

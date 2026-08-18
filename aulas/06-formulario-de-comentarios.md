@@ -8,6 +8,7 @@
 - **Conceito principal:** transformar uma ação do usuário em mudança de estado
 - **Produto do encontro:** formulário que adiciona comentários à página
 - **Pré-requisito:** props e `useState`
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -37,6 +38,12 @@
 - Ver a nova mensagem na lista.
 - Manter os comentários anteriores.
 - Limpar o campo após o envio.
+
+## Uso de DaisyUI
+
+Use `textarea` para a mensagem, `btn btn-primary` para enviar, `alert` para validação e `card` ou `chat` para cada comentário. O botão desabilitado deve usar o atributo `disabled`, não apenas uma aparência diferente.
+
+**Verificação:** testar campo vazio, botão desabilitado e foco pelo teclado; DaisyUI deve comunicar os estados sem esconder a lógica React.
 
 ## Extensão
 

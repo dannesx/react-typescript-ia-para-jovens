@@ -8,6 +8,7 @@
 - **Produto do encontro:** primeira lista recebida da API
 - **Pré-requisito:** ficha e tipo aprovados na aula 14
 - **OpenCode:** planeja e pode editar depois da aprovação do grupo
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -70,6 +71,14 @@ Depois de cada alteração, explique qual estado devo testar.
 - Mostrar mensagens para os quatro estados.
 - Repetir um teste após cada correção.
 
+## Uso de DaisyUI
+
+Represente carregamento com `loading loading-spinner`, erro com `alert alert-error`, vazio com `alert alert-info` e sucesso com uma coleção de `card`. Um `skeleton` pode substituir o spinner apenas como extensão; não implemente os dois durante a prática principal.
+
+Inclua no prompt: “Preserve os componentes DaisyUI escolhidos no planejamento e não acrescente bibliotecas visuais”.
+
+**Verificação:** cada estado deve possuir texto compreensível além de cor ou animação.
+
 ## Testes manuais
 
 | Estado | Como verificar |
@@ -97,4 +106,3 @@ Se a rede falhar, carregar o JSON local mantendo os mesmos tipos e estados visua
 ## Evidência de aprendizagem
 
 Cada grupo registra arquivos alterados, estados testados e uma mudança da IA que precisou ser compreendida antes da aprovação.
-

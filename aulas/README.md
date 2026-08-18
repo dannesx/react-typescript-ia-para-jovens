@@ -28,8 +28,10 @@ Este diretório transforma o plano geral em 18 guias de aula. O documento [PLANO
 ## Convenções
 
 - A duração de referência é 80 minutos.
+- DaisyUI é conhecimento prévio e já está configurado nos projetos-base.
 - Cada encontro introduz no máximo um conceito principal.
 - “Essencial” é o que toda a turma deve tentar concluir.
 - “Extensão” é reservada a quem terminar cedo.
 - A partir da aula 10, toda aula usa OpenCode seguindo o protocolo PARE.
 - Nenhuma sugestão da IA é considerada pronta antes de ser lida, testada e explicada.
+- Classes DaisyUI apoiam a interface, mas semântica, labels e teclado continuam obrigatórios.

@@ -8,6 +8,7 @@
 - **Produto do encontro:** versão estável e pronta para demonstração
 - **Pré-requisito:** API e interação principal funcionando
 - **OpenCode:** revisão limitada; grupo escolhe e testa correções
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -68,6 +69,12 @@ Liste os problemas por prioridade, informe os arquivos e espere aprovação ante
 - Campos possuem label visível ou acessível.
 - Conteúdo principal cabe em tela estreita.
 
+## Uso de DaisyUI
+
+Faça uma auditoria dos modificadores de estado: `btn-disabled`, `alert-error`, `loading`, `tab-active` e variantes de tamanho. Confirme contraste no tema escolhido, labels reais, foco visível e nomes acessíveis. Componentes prontos não garantem acessibilidade quando usados com HTML inadequado.
+
+Peça ao OpenCode para revisar sem substituir componentes DaisyUI nem alterar o tema. Toda sugestão visual deve estar ligada a um item do checklist.
+
 ## Regra de aprovação
 
 Para cada sugestão da IA, o grupo escolhe:
@@ -94,4 +101,3 @@ Se o projeto ainda estiver instável, remover recursos opcionais e manter API, e
 ## Evidência de aprendizagem
 
 Cada grupo entrega o checklist marcado e registra uma sugestão aceita, adiada ou recusada com sua justificativa.
-

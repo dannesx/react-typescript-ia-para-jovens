@@ -8,6 +8,7 @@
 - **Conceito principal:** props
 - **Produto do encontro:** comentários diferentes usando o mesmo componente
 - **Pré-requisito:** criar, exportar e importar componentes
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -39,6 +40,12 @@ Criar um componente `Comentario` que receba e mostre:
 - Nome da pessoa.
 - Mensagem do comentário.
 
+## Uso de DaisyUI
+
+Apresente cada comentário em um `card` ou `chat`, use `avatar` para a pessoa e `badge` para a quantidade de curtidas. As props mudam o conteúdo; as classes DaisyUI mantêm o padrão visual.
+
+**Verificação:** trocar uma prop deve alterar a informação exibida sem exigir novas classes para cada comentário.
+
 ## Extensão
 
 Adicionar uma prop para quantidade de curtidas.
@@ -58,4 +65,3 @@ Adicionar uma prop para quantidade de curtidas.
 ## Plano de recuperação
 
 Começar com apenas uma prop chamada `mensagem`. Acrescentar `nome` somente após a primeira funcionar.
-

@@ -8,6 +8,7 @@
 - **Conceito principal:** estado
 - **Produto do encontro:** campo de comentário controlado pelo React
 - **Pré-requisito:** componentes e props
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -40,6 +41,12 @@ Estado é a memória do componente. Quando essa memória muda, o React atualiza 
 - Atualizar o estado quando o aluno digitar.
 - Mostrar o texto atual abaixo do campo.
 
+## Uso de DaisyUI
+
+Use `input` no campo, `btn btn-primary` no botão de demonstração e `badge` na contagem de caracteres. Mostre que o estado altera valores e textos, enquanto DaisyUI controla a aparência dos elementos.
+
+**Verificação:** a interação deve continuar funcionando quando um modificador visual, como `btn-primary`, for trocado por outro tema.
+
 ## Extensão
 
 Exibir também a quantidade de caracteres digitados.
@@ -59,4 +66,3 @@ Exibir também a quantidade de caracteres digitados.
 ## Plano de recuperação
 
 Entregar o `useState` pronto e pedir que o aluno conecte primeiro o `value`, depois o evento de alteração.
-

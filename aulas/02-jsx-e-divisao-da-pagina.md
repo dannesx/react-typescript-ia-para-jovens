@@ -8,6 +8,7 @@
 - **Conceito principal:** JSX
 - **Produto do encontro:** estrutura inicial da página inspirada no YouTube
 - **Pré-requisito:** reconhecer um componente
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -38,6 +39,12 @@ Montar uma página contendo:
 - Título e informações do vídeo.
 - Área reservada aos comentários.
 
+## Uso de DaisyUI
+
+Construa a região superior com `navbar`, a área principal com `card` e as separações com `divider`. Use as classes para tornar visível a divisão da página, mas peça que os alunos identifiquem primeiro os elementos JSX e suas relações de abertura e fechamento.
+
+**Verificação:** remover temporariamente `card` deve alterar o visual, mas não a estrutura semântica do conteúdo.
+
 ## Extensão
 
 Adicionar uma descrição curta abaixo do título do vídeo.
@@ -57,4 +64,3 @@ Adicionar uma descrição curta abaixo do título do vídeo.
 ## Plano de recuperação
 
 Oferecer a estrutura com quatro regiões vazias e pedir que o aluno apenas adicione os textos correspondentes.
-

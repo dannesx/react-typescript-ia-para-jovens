@@ -8,6 +8,7 @@
 - **Conceito principal:** componente
 - **Produto do encontro:** primeiro componente exibido no navegador
 - **Pré-requisito:** noções básicas de HTML
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -43,6 +44,12 @@ Criar ou alterar um componente para exibir:
 - Uma frase de apresentação.
 - Um elemento visual simples, como emoji ou imagem já fornecida.
 
+## Uso de DaisyUI
+
+Use `card`, `card-body`, `card-title` e `btn` para mostrar que um componente React pode representar uma peça visual conhecida. O foco continua sendo localizar e alterar o componente, não decorar classes.
+
+**Verificação:** o aluno deve distinguir o componente React `Apresentacao` do componente visual `card` fornecido pelo DaisyUI.
+
 ## Extensão
 
 Criar um segundo componente pequeno e exibi-lo abaixo do primeiro.
@@ -62,4 +69,3 @@ Criar um segundo componente pequeno e exibi-lo abaixo do primeiro.
 ## Plano de recuperação
 
 Entregar um componente pronto com apenas um texto destacado para alteração. O objetivo mínimo é estabelecer a relação entre arquivo, código e tela.
-

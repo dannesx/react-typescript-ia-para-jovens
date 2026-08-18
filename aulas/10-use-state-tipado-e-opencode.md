@@ -8,6 +8,7 @@
 - **Produto do encontro:** tarefas controladas por `useState<Tarefa[]>`
 - **Pré-requisito:** tipo `Tarefa`, arrays, `map` e `useState`
 - **OpenCode:** primeira utilização, somente para pistas e explicações
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -62,6 +63,12 @@ Dê primeiro uma pista curta e diga qual tipo o código esperava receber.
 - Corrigir uma tarefa incompatível.
 - Corrigir um caminho `./` ou `../` observando a localização dos arquivos.
 - Pedir uma pista ao OpenCode e realizar a correção manualmente.
+
+## Uso de DaisyUI
+
+Mantenha `card`, `checkbox` e `badge` das aulas anteriores. Mostre erros ou orientações dentro de `alert alert-warning`, deixando claro que o `alert` apresenta a mensagem, mas o TypeScript e a lógica determinam quando ela existe.
+
+Inclua no prompt ao OpenCode: “Não troque componentes nem classes DaisyUI”. Isso mantém a investigação focada no estado tipado.
 
 ## Extensão
 

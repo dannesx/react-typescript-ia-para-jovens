@@ -8,6 +8,7 @@
 - **Conceito principal:** composição de componentes
 - **Produto do encontro:** página montada com componentes separados
 - **Pré-requisito:** JSX básico
+- **Interface:** DaisyUI já configurado e conhecido pela turma
 
 ## Objetivos
 
@@ -43,6 +44,12 @@ arquivo que precisa do componente -> import
 - Importá-lo no arquivo principal.
 - Exibi-lo na página.
 
+## Uso de DaisyUI
+
+Use `avatar` no componente de canal e `card` no componente de comentário. Reforce que as classes visuais podem se repetir, enquanto cada componente React continua sendo criado, exportado e importado pelo projeto.
+
+**Verificação:** a dupla deve seguir o percurso `arquivo → export → import → JSX → classe DaisyUI` sem confundir importação React com classe CSS.
+
 ## Extensão
 
 Exibir o componente de comentário duas vezes para observar a reutilização.
@@ -62,4 +69,3 @@ Exibir o componente de comentário duas vezes para observar a reutilização.
 ## Plano de recuperação
 
 Deixar a linha de importação pronta com uma lacuna apenas no nome do arquivo. Repetir o percurso “sai de onde, entra onde”.
-

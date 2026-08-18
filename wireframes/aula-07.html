@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="garden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wireframe da interface construída na aula 7." />
+    <title>Aula 7 — Wireframe do Todo List</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme { --font-sans: Inter, ui-sans-serif, system-ui, sans-serif; }
+      body { font-family: var(--font-sans); }
+      .wireframe-grid {
+        background-image:
+          linear-gradient(to right, color-mix(in oklab, currentColor 6%, transparent) 1px, transparent 1px),
+          linear-gradient(to bottom, color-mix(in oklab, currentColor 6%, transparent) 1px, transparent 1px);
+        background-size: 24px 24px;
+      }
+      .annotation-line { width: 2.5rem; height: 1px; background: currentColor; }
+    </style>
+  </head>
+
+  <body class="min-h-screen bg-base-200 text-base-content">
+    <a class="btn btn-primary fixed left-4 top-4 z-50 -translate-y-24 focus:translate-y-0" href="#conteudo-principal">
+      Pular para o conteúdo
+    </a>
+
+    <header class="border-b border-base-300 bg-base-100">
+      <div class="navbar mx-auto max-w-7xl px-4 sm:px-6">
+        <div class="navbar-start">
+          <div>
+            <span class="badge badge-outline badge-sm">AULA 7</span>
+            <p class="mt-1 text-sm font-semibold">Wireframe do Todo List</p>
+          </div>
+        </div>
+        <div class="navbar-end gap-2">
+          <span class="badge badge-ghost hidden sm:inline-flex">React</span>
+          <span class="badge badge-ghost hidden sm:inline-flex">TypeScript</span>
+          <span class="badge badge-primary">DaisyUI</span>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo-principal" class="wireframe-grid mx-auto min-h-[calc(100vh-65px)] max-w-7xl px-4 py-10 sm:px-6 lg:py-16">
+      <section class="mb-10 max-w-3xl" aria-labelledby="titulo-wireframe">
+        <div class="mb-4 flex flex-wrap gap-2">
+          <span class="badge badge-outline">NOVO PROJETO</span>
+          <span class="badge badge-outline">INTERFACE ESTÁTICA</span>
+        </div>
+        <h1 id="titulo-wireframe" class="max-w-2xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
+          Meu Todo List
+        </h1>
+        <p class="mt-4 max-w-xl text-lg leading-relaxed text-base-content/70">
+          A primeira tela do projeto: estrutura visual, tipos básicos e pistas da IDE. O formulário ainda não adiciona tarefas.
+        </p>
+      </section>
+
+      <div class="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_18rem]">
+        <section class="card border border-base-300 bg-base-100 shadow-xl" aria-labelledby="titulo-lista">
+          <div class="card-body gap-0 p-5 sm:p-8">
+            <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
+              <div>
+                <span class="text-xs font-black tracking-[0.18em] text-base-content/55">LISTA ATUAL</span>
+                <h2 id="titulo-lista" class="card-title mt-1 text-2xl">Minhas tarefas</h2>
+              </div>
+              <span class="badge badge-primary badge-lg">0 tarefas</span>
+            </div>
+
+            <div class="divider my-5"></div>
+
+            <form aria-describedby="aviso-formulario">
+              <fieldset class="fieldset">
+                <label class="label font-bold" for="nova-tarefa">Nova tarefa</label>
+                <div class="flex flex-col gap-2 sm:flex-row">
+                  <input id="nova-tarefa" class="input w-full" name="nova-tarefa" placeholder="Ex.: revisar a matéria" type="text" />
+                  <button class="btn btn-primary sm:min-w-32" type="button">Adicionar</button>
+                </div>
+                <p id="aviso-formulario" class="label text-base-content/60">Apenas visual nesta aula — sem envio ou estado.</p>
+              </fieldset>
+            </form>
+
+            <section class="stats stats-vertical my-6 border border-base-300 shadow-sm sm:stats-horizontal" aria-label="Resumo das tarefas">
+              <div class="stat">
+                <div class="stat-title">Tarefas cadastradas</div>
+                <div class="stat-value text-primary">0</div>
+                <div class="stat-desc">Tipo: number</div>
+              </div>
+              <div class="stat">
+                <div class="stat-title">Situação</div>
+                <div class="stat-value text-2xl">Livre</div>
+                <div class="stat-desc">Pendências: false</div>
+              </div>
+            </section>
+
+            <section class="alert alert-info items-start" aria-label="Lista vazia">
+              <span class="grid size-10 shrink-0 place-items-center rounded-full bg-info-content text-xl font-black text-info" aria-hidden="true">✓</span>
+              <div>
+                <h3 class="font-bold">A lista começará aqui</h3>
+                <p class="text-sm">Na aula 8, cada tarefa ganhará seu próprio componente com props tipadas.</p>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <aside class="space-y-4 lg:sticky lg:top-6" aria-labelledby="titulo-anotacoes">
+          <div class="flex items-center gap-3 text-base-content/55">
+            <div class="annotation-line" aria-hidden="true"></div>
+            <h2 id="titulo-anotacoes" class="text-sm font-black tracking-widest">MAPA DOS TIPOS</h2>
+          </div>
+
+          <article class="card border border-base-300 bg-base-100 shadow-sm">
+            <div class="card-body gap-2 p-5">
+              <span class="badge badge-success">string</span>
+              <h3 class="font-bold">"Minhas tarefas"</h3>
+              <p class="text-sm text-base-content/65">O nome da lista é um texto e usa aspas no código.</p>
+            </div>
+          </article>
+
+          <article class="card border border-base-300 bg-base-100 shadow-sm">
+            <div class="card-body gap-2 p-5">
+              <span class="badge badge-warning">number</span>
+              <h3 class="font-bold">0 tarefas</h3>
+              <p class="text-sm text-base-content/65">A quantidade é um número e não usa aspas.</p>
+            </div>
+          </article>
+
+          <article class="card border border-base-300 bg-base-100 shadow-sm">
+            <div class="card-body gap-2 p-5">
+              <span class="badge badge-info">boolean</span>
+              <h3 class="font-bold">false</h3>
+              <p class="text-sm text-base-content/65">A lista ainda não possui pendências: verdadeiro ou falso.</p>
+            </div>
+          </article>
+
+          <div class="alert alert-warning items-start text-sm">
+            <span aria-hidden="true">💡</span>
+            <p><strong>TypeScript</strong> verifica os dados. <strong>DaisyUI</strong> oferece a base visual.</p>
+          </div>
+        </aside>
+      </div>
+
+      <section class="mt-12" aria-labelledby="titulo-fluxo">
+        <div class="mb-5 flex items-center gap-3 text-base-content/55">
+          <div class="annotation-line" aria-hidden="true"></div>
+          <h2 id="titulo-fluxo" class="text-sm font-black tracking-widest">FLUXO DA AULA</h2>
+        </div>
+        <ol class="steps steps-vertical w-full lg:steps-horizontal">
+          <li class="step step-primary">Identificar tipos</li>
+          <li class="step step-primary">Criar componente</li>
+          <li class="step step-primary">Exportar e importar</li>
+          <li class="step">Ler a pista da IDE</li>
+          <li class="step">Corrigir um erro</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="border-t border-base-300 bg-base-100 px-4 py-5 text-center text-sm text-base-content/60">
+      Aula 7 — React, TypeScript e IA para jovens
+    </footer>
+  </body>
+</html>

@@ -34,6 +34,7 @@ As aulas 1–6 registram conteúdos já realizados. Na aula 7, a turma começa u
 - [Plano completo das 18 aulas](PLANO_AULAS_REACT.md)
 - [Índice dos roteiros individuais](aulas/README.md)
 - [Aulas individuais](aulas/)
+- [Wireframe HTML da aula 7](wireframes/aula-07.html)
 
 Cada roteiro individual contém:
 
